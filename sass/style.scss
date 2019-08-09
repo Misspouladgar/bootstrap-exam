@@ -1,0 +1,88 @@
+        @import "_vars.scss";
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            overflow: hidden;
+            background-image: url('../Images/Header.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(18,131,218,.85);
+            background-blend-mode: multiply;
+        }
+
+        h5{
+            line-height: 30px;
+        }
+
+        ul{
+            line-height: 32px;
+        }
+
+        header {
+            height: 680px;
+        }
+
+        @media (max-width: 960px) {
+            header {
+                height: 100%;
+        }
+      }        
+
+        .sub-robust-header {
+            max-width: 35rem;
+        }
+
+        .dropdown-menu{
+            background-color: rgba(18,131,218,.85);
+        }
+
+        .dropdown-item:hover{
+            background-color: rgba(8, 51, 85, 0.85);
+        }
+
+        #templateImage{
+            border: 1px solid #E6E5E5;
+            box-shadow: 5px 5px 2px #E5E5E5;
+        }
+
+        #templateImage:hover{
+            cursor: pointer;
+            box-shadow: 10px 10px 4px #E5E5E5;
+            transition: box-shadow .5s;
+        }
+
+        .fa-id-badge {
+            font-size: $font-size;
+        }
+
+        .fa-hand-scissors {
+            font-size: $font-size;
+        }
+
+        .fa-comments {
+            font-size: $font-size;
+        }
+
+        .fa-window-restore {
+            font-size: $font-size;
+        }
+
+        .fa-gem {
+            color: $main-color;
+            font-size: $font-size;
+        }
+
+        .fa-arrow-circle-down {
+            font-size: $font-size;
+        }
+        .ipad{
+            display: flex;
+        }
+        .align-image{
+            justify-items: end;
+        }

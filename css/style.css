@@ -1,0 +1,96 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  overflow: hidden;
+  background-image: url("../Images/Header.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(18, 131, 218, 0.85);
+  background-blend-mode: multiply;
+}
+
+h5 {
+  line-height: 30px;
+}
+
+ul {
+  line-height: 32px;
+}
+
+header {
+  height: 680px;
+}
+
+@media (max-width: 960px) {
+  header {
+    height: 100%;
+  }
+}
+
+.sub-robust-header {
+  max-width: 35rem;
+}
+
+.dropdown-menu {
+  background-color: rgba(18, 131, 218, 0.85);
+}
+
+.dropdown-item:hover {
+  background-color: rgba(8, 51, 85, 0.85);
+}
+
+#templateImage {
+  border: 1px solid #E6E5E5;
+  -webkit-box-shadow: 5px 5px 2px #E5E5E5;
+          box-shadow: 5px 5px 2px #E5E5E5;
+}
+
+#templateImage:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 4px #E5E5E5;
+          box-shadow: 10px 10px 4px #E5E5E5;
+  -webkit-transition: -webkit-box-shadow .5s;
+  transition: -webkit-box-shadow .5s;
+  transition: box-shadow .5s;
+  transition: box-shadow .5s, -webkit-box-shadow .5s;
+}
+
+.fa-id-badge {
+  font-size: 3rem;
+}
+
+.fa-hand-scissors {
+  font-size: 3rem;
+}
+
+.fa-comments {
+  font-size: 3rem;
+}
+
+.fa-window-restore {
+  font-size: 3rem;
+}
+
+.fa-gem {
+  color: #7C39ED;
+  font-size: 3rem;
+}
+
+.fa-arrow-circle-down {
+  font-size: 3rem;
+}
+
+.ipad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-image {
+  justify-items: end;
+}
+/*# sourceMappingURL=style.css.map */
